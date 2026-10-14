@@ -1,0 +1,27 @@
+{
+  "name": "spl-lab",
+  "version": "0.1.0",
+  "type": "module",
+  "bin": { "spl-lab": "./src/cli.js" },
+  "scripts": {
+    "mint": "node src/cli.js mint",
+    "list": "node src/cli.js list",
+    "freeze": "node src/cli.js freeze",
+    "calc": "node src/cli.js calc",
+    "pool-market": "node src/cli.js pool-market",
+    "pool": "node src/cli.js pool"
+  },
+  "dependencies": {
+    "@solana/web3.js": "^1.95.0",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/spl-token-metadata": "^0.1.4",
+    "@metaplex-foundation/mpl-token-metadata": "^3.3.0",
+    "@metaplex-foundation/umi": "^0.9.2",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@raydium-io/raydium-sdk-v2": "0.2.70-alpha",
+    "commander": "^12.1.0",
+    "bs58": "^6.0.0",
+    "tweetnacl": "^1.0.3",
+    "bn.js": "^5.2.1"
+  }
+}

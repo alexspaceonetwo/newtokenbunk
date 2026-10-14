@@ -1,0 +1,31 @@
+{
+  "name": "{NAME}",
+  "symbol": "{SYMBOL}",
+  "description": "A fungible token on Solana",
+  "image": "https://cdn.prod.website-files.com/6683c774a6e7a5003c5889c3/66ed0d91b98f6408ca379b4f_bonk_Preview%20Image-p-3200.png",
+  "external_url": "",
+  "uri": "https://example.com/{SYMBOL}.metadata.json",
+  "attributes": [
+    {
+      "trait_type": "cluster",
+      "value": "{CLUSTER}"
+    },
+    {
+      "trait_type": "token_of",
+      "value": "{NAME}"
+    },
+    {
+      "trait_type": "token_symbol",
+      "value": "{SYMBOL}"
+    }
+  ],
+  "properties": {
+    "category": "image",
+    "files": [
+      {
+        "uri": "https://cdn.prod.website-files.com/6683c774a6e7a5003c5889c3/66ed0d91b98f6408ca379b4f_bonk_Preview%20Image-p-3200.png",
+        "type": "image/png"
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "activeCluster": "mainnet-beta",
+  "clusters": {
+    "mainnet-beta": {
+      "rpc": "https://api.mainnet-beta.solana.com",
+      "explorer": "https://explorer.solana.com",
+      "solscan": "https://solscan.io",
+      "label": "SOLANA MAINNET"
+    },
+    "testnet": {
+      "rpc": "https://api.testnet.solana.com",
+      "explorer": "https://explorer.solana.com/?cluster=testnet",
+      "solscan": "https://solscan.io/?cluster=testnet",
+      "label": "TESTNET LAB"
+    },
+    "devnet": {
+      "rpc": "https://api.devnet.solana.com",
+      "explorer": "https://explorer.solana.com/?cluster=devnet",
+      "solscan": "https://solscan.io/?cluster=devnet",
+      "label": "DEVNET LAB"
+    },
+    "localnet": {
+      "rpc": "http://127.0.0.1:8899",
+      "explorer": "",
+      "solscan": "",
+      "label": "LOCAL LAB"
+    }
+  }
+}
